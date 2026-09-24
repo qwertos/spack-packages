@@ -17,7 +17,7 @@ class PyPymatgenDb(PythonPackage):
     homepage = "https://github.com/materialsproject/pymatgen-db"
     pypi     = "pymatgen-db/pymatgen-db-2022.5.20.tar.gz"
 
-    maintainers = ["meyersbs"]
+    license("MIT")
 
     version("2023.7.18", sha256="ca0acab590c1cc1000d745b8001ddd2e26ee56612257754ce21d96db69b0f8b2")
     version("2022.5.20", sha256="1a4d8391bbfdb5093e54feb27ce44b4cc60289da971e340c4347a36fb7188f8a")
