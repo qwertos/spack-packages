@@ -15,7 +15,7 @@ class PyPymatgenDb(PythonPackage):
     objects for analysis purposes."""
 
     homepage = "https://github.com/materialsproject/pymatgen-db"
-    pypi     = "pymatgen-db/pymatgen-db-2022.5.20.tar.gz"
+    pypi = "pymatgen-db/pymatgen-db-2022.5.20.tar.gz"
 
     license("MIT")
 
